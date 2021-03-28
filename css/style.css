@@ -1,0 +1,190 @@
+@font-face
+{
+    font-family: 'ballpark';
+    src:  url('../img-pol/polices/ballpark.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'dayrom';
+    src: url('../img-pol/polices/dayrom.ttf') format('truetype');
+}
+/*************** general ****************/
+h1{
+    text-transform: uppercase;
+    font-family: 'dayrom' ;
+    font-size: 20px;
+
+}
+body {
+    background: url('../img-pol/images/fond_jaune.png');
+}
+#page{
+    width: 900px;
+    margin: auto;
+}
+
+/* ********************  header ***************   */
+header{
+    background: url('../img-pol/images/separateur.png') bottom;
+    background-repeat: repeat-x;
+}
+#zozor{
+    font-family: 'ballpark';
+    margin-left: 60px;
+    margin-bottom: 0px;
+    text-transform: none;
+    font-size: 40px;
+}
+h4{
+    font-family: 'dayrom';
+    font-size: 20px;
+    margin-top: 0px;
+}
+nav{
+    margin: 90px auto auto 200px;
+    
+}
+nav ul{
+    padding: auto;
+}
+nav ul li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li  :hover {
+    border-bottom: #760001 2px solid;
+    color: #760001;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "dayrom";
+    color: #000;
+} 
+
+/********* sanfrancisco **********/
+
+#sanfran{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow : 0 0 5px 0;
+    border-radius: 10px;
+}
+#img-sanfrancisco {
+    border-radius: 10px;
+    padding: 0;
+    height: 213px;
+
+}
+#text-sanfrancisco {
+    background: rgba(0,0,0,0.6) ;
+    margin-top: -49px;
+    padding: 0;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    height: 50px;
+}
+#text-sanfrancisco p{
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 10px ;
+    padding-left: 0;
+    padding-left: 10px;
+}
+
+#sanfran button {
+    background: url('../img-pol/images/fond_degraderouge.png') repeat-x;
+    width: 130px;
+    height: 30px;
+    color: #fff ;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 10px auto auto;
+}
+
+
+/********** section ************** */
+
+section {
+    
+    background: url('../img-pol/images/separateur.png') bottom;
+    background-repeat: repeat-x;
+
+}
+/*********** aside ***********/
+#bulle{
+    padding: 0px;
+    width: 19px;
+    height: 19px;
+    margin-top: 120px;
+}
+aside{
+    background-color: #706b64;
+    padding-left: 0;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px #000;
+    color: #fff;
+}
+#accounts{
+    text-align: center;
+}
+#zozor_class{
+    text-align: center;
+    margin-top: 20px;
+}
+#zozor_class img {
+    border: #000 2px solid;
+}
+aside h1{
+    margin-top: 30px;
+    font-size: 18px;
+}
+aside p{
+    margin-top: 20px;
+}
+/***************** article **************/
+
+article{
+    padding: 0px;
+}
+article h1{
+    padding-top: 20px;
+    padding-left: 0px;
+    
+}
+article p {
+    font-size: 12.3px;
+    margin-top: 20px;
+}
+article .col-2{
+    width: 12%;
+   
+}
+article img{
+    padding-right: 0px;
+}
+.col-3{
+    width: 30%;
+}
+/*************** footer *******************/
+#top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#amis ul{
+    list-style: none;
+    font-size: smaller;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
